@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Link Checker</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 6px;
+        text-align: left;
+      }
+    </style>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <div id="initial-view">
+      <h2>Link Checker Extension</h2>
+      <label for="enable-check">Enable link check</label>
+      <input type="checkbox" id="enable-check" />
+      <br /><br />
+      <button id="done-button">Done</button>
+    </div>
+    <div id="result-view">
+      <div id="all-links-container">
+        <h3 id="all-links">All Links</h3>
+        <table id="links-list"></table>
+      </div>
+      <br />
+      <br />
+
+      <div id="broken-links-container">
+        <h3 id="broken-links">Broken Links</h3>
+        <table id="broken-links-list"></table>
+      </div>
+
+      <!-- <h3>All Links:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>URL</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="links-list"></tbody>
+    </table>
+    <h3>Broken Links:</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>URL</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="broken-links-list"></tbody>
+    </table> -->
+      <br /><br />
+      <button id="back">Back</button>
+      <button id="download-pdf">Download as PDF</button>
+      <br /><br />
+    </div>
+    <script src="popup.js"></script>
+    <script src="libs/jspdf.umd.min.js"></script>
+    <script src="libs/jspdf.plugin.autotable.min.js"></script>
+  </body>
+</html>

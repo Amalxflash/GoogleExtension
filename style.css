@@ -1,0 +1,140 @@
+#initial-view{
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #f9f9f9;
+    
+}
+
+#result-view { 
+    
+    
+    display: none; }
+
+h2 {
+    border: solid 1px black;
+    color: blueviolet;
+    font-size: 30px;
+    margin-left: -44px;
+    margin-right: -47px;
+  }
+  
+  label {
+    font-size: 15px; /* This will set the font size of label elements to 1.2 times the font size of their parent element */
+  }
+
+
+
+  /* Styles for done button */
+  
+  #done-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* Add curved borders */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  #done-button:hover {
+    background-color: #8fc149; /* Change the background color on hover */
+  }
+
+  #done-button {
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+  #all-links-container, #broken-links-container {
+    border: 1px solid black;
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  #all-links-container {
+    margin-bottom: 20px;
+    background-color: #007bff;
+  }
+  #links-list{
+    background-color: #f9f9f9;
+  }
+
+
+#all-links{
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+  #broken-links-container{
+    background-color: rgb(243, 124, 124);
+    text-align: center;
+  }
+
+  #broken-links{
+    color: black;
+    font-size: 20px;
+  }
+
+  #broken-links-list{
+    background-color: #f9f9f9;
+  }
+
+  
+
+  #back {
+    background-color: rgb(147, 99, 224);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* Add curved borders */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  #back:hover {
+    background-color: violet; /* Change the background color on hover */
+  }
+
+
+
+  #download-pdf {
+    margin-left: 500px;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* Add curved borders */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  
+  #download-pdf:hover {
+    background-color: #8fc149; /* Change the background color on hover */
+  }
+
+
+  #enable-check{
+    transform: scale(1.5);
+    border: #007bff;
+  }
